@@ -1,0 +1,18 @@
+{
+  "name": "string-parser",
+  "version": "0.0.1",
+  "description": "String Parser",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel/register --colors --reporter spec",
+    "cover": "babel-node node_modules/isparta/bin/isparta cover node_modules/mocha/bin/_mocha --report lcovonly -- --colors --reporter spec"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "functional-programming-utilities": "0.0.3",
+  }
+}
